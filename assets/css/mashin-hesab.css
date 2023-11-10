@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.calculate {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculate .calculate-col .safhe-namayesh-panel {
+  overflow: hidden;
+  border: 1px solid;
+  height: 6rem;
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+.calculate .calculate-col .safhe-namayesh-panel input {
+  background-color: #A7D397;
+  border: 0;
+  text-align: right;
+  font-size: 2rem;
+}
+.calculate .calculate-col .dokmeh-panel {
+  height: 18rem;
+  width: 100%;
+}
+.calculate .calculate-col .dokmeh-panel div {
+  background-color: #5e6260;
+  border: none;
+}
+.calculate .calculate-col .dokmeh-panel div:hover {
+  cursor: pointer;
+  background-color: #848484;
+  transition: background 0.1s ease-out;
+}
+.calculate .calculate-col .dokmeh-panel div:active {
+  background-color: #96a09b;
+}
+.calculate .calculate-col .dokmeh-panel div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+}
+.calculate .calculate-col .dokmeh-panel .amalgar-div {
+  background-color: rgb(72, 72, 72);
+}
+.calculate .calculate-col .dokmeh-panel .amalgar-div:hover {
+  background-color: #222222;
+}
+.calculate .calculate-col .dokmeh-panel-2 {
+  height: 5rem;
+  width: 100%;
+}
+.calculate .calculate-col .dokmeh-panel-2 div {
+  background-color: #5e6260;
+}
+.calculate .calculate-col .dokmeh-panel-2 div:hover {
+  cursor: pointer;
+  background-color: #848484;
+  transition: background 0.1s ease-out;
+}
+.calculate .calculate-col .dokmeh-panel-2 div:active {
+  background-color: #96a09b;
+}
+.calculate .calculate-col .dokmeh-panel-2 div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+}
+.calculate .calculate-col .dokmeh-panel-2 .amalgar-div {
+  background-color: rgb(72, 72, 72);
+}
+.calculate .calculate-col .dokmeh-panel-2 .amalgar-div:hover {
+  background-color: #222222;
+}
+.calculate .calculate-col .dokmeh-panel-2 .num-AC {
+  background-color: orange;
+}
+.calculate .calculate-col .dokmeh-panel-2 .num-AC:hover {
+  background-color: rgb(255, 197, 89);
+}
+.calculate .calculate-col .dokmeh-panel-2 .num-AC:active {
+  background-color: rgb(254, 206, 116);
+}
+
+/*# sourceMappingURL=mashin-hesab.css.map */
